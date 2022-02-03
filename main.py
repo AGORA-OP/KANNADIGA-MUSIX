@@ -50,9 +50,9 @@ from pytgcalls.exceptions import NoActiveGroupCall, GroupCallNotFound
 from core.decorators import register, language, handle_error, only_admins
 
 REPO = """
- **Music Player**
-- Repo: [GitHub](https://github.com/LEGEND-OS/MUSIC-VC)
-- Owner: @The_LegendBoy
+ **KANNADIGA MUSIX**
+- Repo: [GitHub](https://github.com/AGORA-OP/KANNADIGA-MUSIX)
+- Owner: [KANNADIGA](https://t.me/MR_PROFESSOR_AGORA)
 """
 
 
@@ -69,7 +69,7 @@ async def repo(_, message: Message):
 )
 @handle_error
 async def ping(_, message: Message):
-    await message.reply_text(f"🤖 **Pong!**\n`{await pytgcalls.ping} ms`")
+    await message.reply_text(f"🤖 **jeevanta idini macha!**\n`{await pytgcalls.ping} ms`")
 
 
 @app.on_message(
